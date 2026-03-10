@@ -1,0 +1,9 @@
+{
+  "name": "skill-exporter",
+  "version": "1.0.0",
+  "description": "Orchestrates the skill publishing pipeline: audit -> package -> price -> publish -> list.",
+  "main": "orchestrator.js",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

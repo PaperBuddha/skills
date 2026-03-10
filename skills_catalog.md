@@ -1,0 +1,70 @@
+# Skills Catalog
+
+- Plan-First-Act-Second.md
+  - Path: skills/Plan-First-Act-Second.md
+  - Description: Enforces mandatory planning phase before any shell or code modification. Replaces <thinking> blocks with a visible ### PLANNING PHASE heading and a structured, numbered plan before execution.
+  - Usage: Apply to tasks requiring careful, deliberate action to prevent errors and hallucinations.
+  - Status: active
+- Rubber-Duck-Debugging.md
+  - Path: skills/rubber-duck-debugging/SKILL.md
+  - Description: Forces systematic debugging and log analysis after any command failure.
+  - Usage: Applies automatically when a command fails; mandates a three-step debugging procedure before retrying.
+  - Status: active
+- Memory-Bank.md
+  - Path: skills/memory-bank/SKILL.md
+  - Description: Maintains persistent memory across sessions by logging user preferences and project milestones.
+  - Usage: Active at all times; logs learnings when preferences are learned, bugs are fixed, or milestones achieved.
+  - Status: active
+- Context-Injection.md
+  - Path: skills/context-injection/SKILL.md
+  - Description: Forces the reading of a local context.md file to load project-specific rules before modifying files.
+  - Usage: Load context before modifying files in a new project directory.
+  - Status: active
+- Autonomous-Delegation.md
+  - Path: skills/autonomous-delegation/SKILL.md
+  - Description: Enables autonomous spawning of temporary, specialized sub-agents for complex or unfamiliar tasks.
+  - Usage: Spawn sub-agents for complex or domain-specific sub-tasks; review and integrate their output before continuing.
+  - Status: active
+- Context-Compactor.md
+  - Path: skills/context-compactor/SKILL.md
+  - Description: Prevents logic degradation by summarizing and compacting long conversation history into a temporary active_state.md file.
+  - Usage: Proactively compacts session state into active_state.md during long sessions, log pile-ups, or before major refactors.
+  - Status: active
+- Context-Writer.md
+  - Path: skills/context-writer/SKILL.md
+  - Description:  (pending)
+  - Usage:  (pending)
+- Spec-Writer.md
+  - Path: skills/spec-writer/SKILL.md
+  - Description: Prevents spaghetti code by acting as a Systems Architect to generate a spec.md before writing any code.
+  - Usage: Use architecture phase before feature development to ensure spec is approved.
+  - Status: active
+- Context-Compactor.md
+  - Path: skills/context-compactor/SKILL.md
+  - Description: (duplicate entry) Prevents logic degradation by summarizing and compacting long conversation history into a temporary active_state.md file.
+  - Usage: Proactively compacts session state into active_state.md during long sessions, log pile-ups, or before major refactors.
+  - Status: active
+- Tree-of-Thoughts.md
+  - Path: skills/tree-of-thoughts/SKILL.md
+  - Description: Forces divergent brainstorming by generating three distinct architectural approaches before implementation.
+  - Usage: Used before complex features or architecture tasks to surface multiple viable approaches.
+  - Status: active
+- Context-Writer.md
+  - Path: skills/context-writer/SKILL.md
+  - Description:  (duplicate entry)
+  - Usage:  (duplicate entry)
+- Synaptic-Pruning.md
+  - Path: skills/synaptic-pruning/SKILL.md
+  - Description: Acts as a REM sleep cycle to consolidate, deduplicate, and optimize the learned_lessons.md memory file.
+  - Usage: Applies when memory optimization is desired.
+  - Status: active
+- Context-Injection.md
+  - Path: skills/context-injection/SKILL.md
+  - Description: Forces the reading of a local context.md file to load project-specific rules before modifying files.
+  - Usage: Load context before modifying files in a new project directory.
+  - Status: active
+- Context-Compactor.md
+  - Path: skills/context-compactor/SKILL.md
+  - Description: (duplicate entry) Prevents logic degradation by summarizing and compacting long conversation history into a temporary active_state.md file.
+  - Usage: Proactively compacts session state into active_state.md during long sessions, log pile-ups, or before major refactors.
+  - Status: active

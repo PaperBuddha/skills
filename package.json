@@ -1,0 +1,12 @@
+{
+  "name": "ncc1701z-workspace",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OpenClaw NCC-1701Z workspace",
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.4",
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1",
+    "ethers": "^5.8.0"
+  }
+}

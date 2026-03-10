@@ -1,0 +1,11 @@
+{
+  "name": "git-essentials",
+  "version": "1.0.0",
+  "description": "Handles GitHub operations for publishing skills and submitting PRs securely.",
+  "main": "git_manager.js",
+  "dependencies": {
+    "simple-git": "^3.22.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  }
+}

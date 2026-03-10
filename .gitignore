@@ -1,0 +1,31 @@
+# Security & Environment
+.env
+.openclaw
+.pi
+.venv
+backup_configs/
+*.ogg
+*.wav
+*.jpg
+*.png
+
+# Dependencies
+node_modules/
+
+# Private/Internal-Only Skills (Knowledge Index: STRICTLY PRIVATE)
+skills/anomaly-detection/
+skills/confidence-scoring/
+skills/data-normalization/
+skills/collector-profiling/
+skills/career-scoring-engine/
+skills/cross-market-analyst/
+skills/pattern-hunter/
+skills/api-intelligence-curator/
+skills/database-writer/
+skills/entity-resolution/
+
+# Ephemeral/Temporary
+active_state.md
+memory/
+transactions.json
+HEARTBEAT.md.disabled
