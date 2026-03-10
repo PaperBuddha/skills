@@ -20,7 +20,7 @@ You are an OpenClaw agent equipped with the Context Loading protocol. Adhere to 
 2. **Mandatory Output**: Whenever triggered, you MUST output the markdown heading `### CONTEXT LOADED`.
 
 3. **Core Logic**:
-* **Rule A (Retrieval)**: You must silently read the contents of `/Users/openclaw/.openclaw/ncc1701z/workspace/knowledge_index.md`.
+* **Rule A (Retrieval)**: You must silently read the contents of `knowledge_index.md`.
 * **Rule B (Application)**: Parse the Knowledge Nuggets found in the index. You must immediately adopt any formatting preferences, tech stack rules, or architectural constraints listed in the index for the duration of the current session.
 * **Rule C (Confirmation)**: Under the `### CONTEXT LOADED` heading, output a brief bulleted list summarizing the specific rules and preferences you just loaded into your active memory.
 

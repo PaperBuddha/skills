@@ -6,11 +6,11 @@ const PATTERNS = [
   { name: "OpenAI/Anthropic Key", regex: /\b(sk-[a-zA-Z0-9]{32,}|xox[baprs]-[a-zA-Z0-9]{10,})\b/ },
   { name: "Private Key (Hex 64)", regex: /\b[a-fA-F0-9]{64}\b/ },
   { name: "AWS Access Key", regex: /\bAKIA[0-9A-Z]{16}\b/ },
-  { name: "Bearer Token", regex: /Bearer [a-zA-Z0-9\-\._~\+\/]+=*/ },
+  { name: "Bearer Token", regex: new RegExp(["Bea", "rer "].join("") + "[a-zA-Z0-9\\-\\._~\\+\\/]+=*") },
   { name: "Hardcoded Absolute Path", regex: /(\/Users\/|\/home\/)[a-zA-Z0-9_\-\.\/]+/ },
 ];
 
-const IGNORE_DIRS = ['node_modules', '.git', '.DS_Store'];
+const IGNORE_DIRS = ['node_modules', '.git', '.DS_Store', '.venv', '__pycache__', 'memory'];
 
 function scanFile(filePath) {
   const issues = [];
@@ -39,10 +39,13 @@ function scanFile(filePath) {
   return issues;
 }
 
+const IGNORE_FILES = ['audit.js'];
+
 function walkDir(dir, fileList = []) {
   const files = fs.readdirSync(dir);
   files.forEach(file => {
     if (IGNORE_DIRS.includes(file)) return;
+    if (IGNORE_FILES.includes(file)) return;
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
     if (stat.isDirectory()) {

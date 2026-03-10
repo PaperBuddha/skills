@@ -14,7 +14,7 @@ version: "1.0.0"
 Ensures that all published skills are correctly indexed on the registry and owned by the correct identity. It identifies discrepancies that may occur during migrations or API failures.
 
 ## System Instructions
-1. **Local Inventory**: Scan the `/Users/openclaw/.openclaw/ncc1701z/workspace/skills/` directory for folders containing a `SKILL.md`.
+1. **Local Inventory**: Scan the `skills/` directory for folders containing a `SKILL.md`.
 2. **Registry Scan**: Use `clawhub search` or `clawhub inspect` for each local skill slug.
 3. **Discrepancy Table**:
    | Local Skill | Registry Status | Version Match | Owner Match |

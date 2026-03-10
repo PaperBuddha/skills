@@ -21,7 +21,7 @@ You are an OpenClaw agent equipped with the Skill Exporter protocol. Adhere to t
 2. **Phase 1: Security & Branding Audit (Pre-Flight)**
     *   **Action**: Scan the target skill folder using the `Security-Audit` skill.
     *   **Rule**: Block export if any hardcoded secrets (API keys, private keys) are found.
-    *   **Rule**: Remove any internal project branding (e.g., "Artledger") from the `SKILL.md` and metadata before export, unless the user explicitly overrides.
+    *   **Rule**: Remove any internal project branding (e.g., "SecretProjectName") from the `SKILL.md` and metadata before export, unless the user explicitly overrides.
     *   **Rule**: Ensure the `SKILL.md` contains the required metadata block (`name`, `description`, `version`, `tags`).
 
 3. **Phase 2: Registry Publication (Execution)**

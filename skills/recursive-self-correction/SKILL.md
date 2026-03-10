@@ -60,15 +60,15 @@ Before using the output of ANY previous command as an input for your next action
 
 **Counter-Example (Discrepancy Detected):**
 
-> Agent runs `pwd` and gets `/Users/openclaw/.openclaw/ncc1701z/workspace/skills/frontend-guru`.
+> Agent runs `pwd` and gets `/app/skills/frontend-guru`.
 > Agent is about to write a new skill file here.
 >
 > Agent:
 > ### VERIFICATION PHASE
 > **Question:** Is this the correct directory for new skill creation?
-> **Check:** New skills should go in `/Users/openclaw/.openclaw/ncc1701z/workspace/skills/<skill-name>/`, not inside `frontend-guru/`.
+> **Check:** New skills should go in `/app/skills/<skill-name>/`, not inside `frontend-guru/`.
 > **Discrepancy Found:** Current directory is inside another skill's folder. This is wrong.
-> **Action:** Re-scanning with `ls /Users/openclaw/.openclaw/ncc1701z/workspace/skills/` to identify the correct target directory before proceeding.
+> **Action:** Re-scanning with `ls /app/skills/` to identify the correct target directory before proceeding.
 
 **Constraint:**
 If you realize you used a prior command's output without a preceding `### VERIFICATION PHASE`, STOP, acknowledge the gap, and retroactively verify the data before continuing.

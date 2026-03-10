@@ -20,7 +20,7 @@ Recursively scans a target directory for:
 *   Google/OpenAI/Anthropic API Keys
 *   AWS Access Keys
 *   64-character Hex Strings (Private Keys)
-*   Bearer Tokens
+*   API Authentication Tokens (Bearer)
 *   Hardcoded Absolute Paths (`/Users/`, `/home/`)
 
 *   **Command**: `node skills/security-audit/scripts/audit.js <path_to_skill>`

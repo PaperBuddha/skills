@@ -54,7 +54,7 @@ You are an OpenClaw agent equipped with the Pre-Publish Audit protocol. Adhere t
     *   **OVERALL STATUS**: [PASS / FAIL]
     *   **DETAILED FINDINGS**:
         *   List failures with exact line references.
-        *   Explain the reason for each failure (e.g., "Keyword 'artledger' found on line 42").
+        *   Explain the reason for each failure (e.g., "Keyword 'DB1' found on line 42").
     *   **NEXT STEP**: [Proceed to Publish / Fix and Retry]
 
 4. **Guardrails**:
